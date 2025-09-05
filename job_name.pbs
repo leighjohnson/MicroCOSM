@@ -1,0 +1,21 @@
+#!/bin/bash -l
+#
+#PBS -N Microsimulation1
+#PBS -P HEAL1049
+#PBS -q normal
+#PBS -l select=2:ncpus=24:mpiprocs=24:nodetype=haswell_reg
+#PBS -l walltime=01:00:00
+#PBS -m be
+#PBS -M leigh.johnson@uct.ac.za
+
+ulimit -s unlimited
+
+cd /mnt/lustre/users/ljohnson/code/Microsimulation10c
+
+module load gcc/5.1.0
+
+g++ -std=c++14 Microsimulation.cpp StatFunctions.cpp mersenne.cpp -o Microsimulation
+
+chmod u+x Microsimulation
+
+./Microsimulation

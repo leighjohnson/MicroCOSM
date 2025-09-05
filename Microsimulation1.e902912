@@ -1,0 +1,815 @@
+Microsimulation.cpp: In member function ‘void Pop::GetHIVsurvivalTimes()’:
+Microsimulation.cpp:6441:54: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  HIVsurvivalTimes.RecordSample("HIVsurvivalTimes.txt");
+                                                      ^
+Microsimulation.cpp: In member function ‘void Pop::GetVLs()’:
+Microsimulation.cpp:6460:42: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  ViralLoads.RecordSample("ViralLoads.txt");
+                                          ^
+Microsimulation.cpp: In member function ‘void Pop::GetUnprotected()’:
+Microsimulation.cpp:6490:71: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  if (CurrSim == 3){ UnprotectedRisk.RecordSample("UnprotectedRisk.txt"); }
+                                                                       ^
+Microsimulation.cpp: In member function ‘void Pop::GetMigHIV()’:
+Microsimulation.cpp:6521:91: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  if (CurrSim == 5 && CurrYear==2008){ MigrationHIVassn.RecordSample("MigrationHIVassn.txt"); }
+                                                                                           ^
+Microsimulation.cpp: In member function ‘void Pop::GetCashHIV()’:
+Microsimulation.cpp:6552:62: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  if (CurrSim == 10){ HIVacqCash.RecordSample("HIVacqCash.txt"); }
+                                                              ^
+Microsimulation.cpp: In function ‘void ReadSTDprev()’:
+Microsimulation.cpp:12492:45: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   HIVtransitionM.ReadPrevData("HIVdataM.txt");
+                                             ^
+Microsimulation.cpp:12493:45: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   HIVtransitionF.ReadPrevData("HIVdataF.txt");
+                                             ^
+Microsimulation.cpp:12496:45: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   HSVtransitionM.ReadPrevData("HSVdataM.txt");
+                                             ^
+Microsimulation.cpp:12497:45: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   HSVtransitionF.ReadPrevData("HSVdataF.txt");
+                                             ^
+Microsimulation.cpp:12500:43: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   TPtransitionM.ReadPrevData("TPdataM.txt");
+                                           ^
+Microsimulation.cpp:12501:43: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   TPtransitionF.ReadPrevData("TPdataF.txt");
+                                           ^
+Microsimulation.cpp:12504:43: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   HDtransitionM.ReadPrevData("HDdataM.txt");
+                                           ^
+Microsimulation.cpp:12505:43: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   HDtransitionF.ReadPrevData("HDdataF.txt");
+                                           ^
+Microsimulation.cpp:12508:43: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   NGtransitionM.ReadPrevData("NGdataM.txt");
+                                           ^
+Microsimulation.cpp:12509:43: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   NGtransitionF.ReadPrevData("NGdataF.txt");
+                                           ^
+Microsimulation.cpp:12512:43: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   CTtransitionM.ReadPrevData("CTdataM.txt");
+                                           ^
+Microsimulation.cpp:12513:43: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   CTtransitionF.ReadPrevData("CTdataF.txt");
+                                           ^
+Microsimulation.cpp:12516:43: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   TVtransitionM.ReadPrevData("TVdataM.txt");
+                                           ^
+Microsimulation.cpp:12517:43: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   TVtransitionF.ReadPrevData("TVdataF.txt");
+                                           ^
+Microsimulation.cpp:12519:61: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  if (BVcalib == 1){ BVtransitionF.ReadPrevData("BVdataF.txt"); }
+                                                             ^
+Microsimulation.cpp:12520:61: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  if (VCcalib == 1){ VCtransitionF.ReadPrevData("VCdataF.txt"); }
+                                                             ^
+Microsimulation.cpp: In function ‘void ReadAllInputFiles()’:
+Microsimulation.cpp:12865:33: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  ReadSexAssumps("SexAssumps.txt");
+                                 ^
+Microsimulation.cpp:12866:34: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  ReadSTDepi("STDepidemiology.txt");
+                                  ^
+Microsimulation.cpp:12873:37: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  ReadStartProfile("StartProfile.txt");
+                                     ^
+Microsimulation.cpp: In function ‘void StoreOutputs()’:
+Microsimulation.cpp:13212:51: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   HIVprev15to49M.RecordSample("HIVprev15to49M.txt");
+                                                   ^
+Microsimulation.cpp:13213:51: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   HIVprev15to49F.RecordSample("HIVprev15to49F.txt");
+                                                   ^
+Microsimulation.cpp:13214:51: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   HIVprev15to49B.RecordSample("HIVprev15to49B.txt");
+                                                   ^
+Microsimulation.cpp:13215:51: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   HIVprev15to49C.RecordSample("HIVprev15to49C.txt");
+                                                   ^
+Microsimulation.cpp:13216:51: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   HIVprev15to49W.RecordSample("HIVprev15to49W.txt");
+                                                   ^
+Microsimulation.cpp:13217:39: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   UrbanHIV.RecordSample("UrbanHIV.txt");
+                                       ^
+Microsimulation.cpp:13218:39: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   RuralHIV.RecordSample("RuralHIV.txt");
+                                       ^
+Microsimulation.cpp:13220:43: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   CD4500plus.RecordSample("CD4500plus.txt");
+                                           ^
+Microsimulation.cpp:13221:45: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   CD4350to499.RecordSample("CD4350to499.txt");
+                                             ^
+Microsimulation.cpp:13222:45: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   CD4200to349.RecordSample("CD4200to349.txt");
+                                             ^
+Microsimulation.cpp:13223:45: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   CD4under200.RecordSample("CD4under200.txt");
+                                             ^
+Microsimulation.cpp:13224:57: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   UndiagnosedAdults.RecordSample("UndiagnosedAdults.txt");
+                                                         ^
+Microsimulation.cpp:13225:59: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   DiagnosedUntreated.RecordSample("DiagnosedUntreated.txt");
+                                                           ^
+Microsimulation.cpp:13226:49: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   TreatedAdults.RecordSample("TreatedAdults.txt");
+                                                 ^
+Microsimulation.cpp:13227:49: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   PrevPregNoEdu.RecordSample("PrevPregNoEdu.txt");
+                                                 ^
+Microsimulation.cpp:13228:53: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   PrevPregPrimary.RecordSample("PrevPregPrimary.txt");
+                                                     ^
+Microsimulation.cpp:13229:51: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   PrevPreg2ndary.RecordSample("PrevPreg2ndary.txt");
+                                                   ^
+Microsimulation.cpp:13230:55: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   PrevPregTertiary.RecordSample("PrevPregTertiary.txt");
+                                                       ^
+Microsimulation.cpp:13231:51: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   PrevPregAllEdu.RecordSample("PrevPregAllEdu.txt");
+                                                   ^
+Microsimulation.cpp:13232:49: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   PrevByEdu2002.RecordSample("PrevByEdu2002.txt");
+                                                 ^
+Microsimulation.cpp:13233:55: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   DiscordantPropnM.RecordSample("DiscordantPropnM.txt");
+                                                       ^
+Microsimulation.cpp:13234:55: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   DiscordantPropnF.RecordSample("DiscordantPropnF.txt");
+                                                       ^
+Microsimulation.cpp:13235:53: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   DiscordantPropn.RecordSample("DiscordantPropn.txt");
+                                                     ^
+Microsimulation.cpp:13236:51: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   DiscordantFtoM.RecordSample("DiscordantFtoM.txt");
+                                                   ^
+Microsimulation.cpp:13238:44: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+    PrevPreg15.RecordSample("PrevPreg15.txt");
+                                            ^
+Microsimulation.cpp:13239:44: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+    PrevPreg20.RecordSample("PrevPreg20.txt");
+                                            ^
+Microsimulation.cpp:13240:44: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+    PrevPreg25.RecordSample("PrevPreg25.txt");
+                                            ^
+Microsimulation.cpp:13241:44: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+    PrevPreg30.RecordSample("PrevPreg30.txt");
+                                            ^
+Microsimulation.cpp:13242:44: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+    PrevPreg35.RecordSample("PrevPreg35.txt");
+                                            ^
+Microsimulation.cpp:13243:44: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+    PrevPreg40.RecordSample("PrevPreg40.txt");
+                                            ^
+Microsimulation.cpp:13244:50: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+    PrevPregTotal.RecordSample("PrevPregTotal.txt");
+                                                  ^
+Microsimulation.cpp:13245:44: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+    PrevHH2005.RecordSample("PrevHH2005.txt");
+                                            ^
+Microsimulation.cpp:13246:44: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+    PrevHH2008.RecordSample("PrevHH2008.txt");
+                                            ^
+Microsimulation.cpp:13247:44: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+    PrevHH2012.RecordSample("PrevHH2012.txt");
+                                            ^
+Microsimulation.cpp:13248:51: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+    HIVparamsLogL.RecordSample("ParamCombsLogL.txt");
+                                                   ^
+Microsimulation.cpp:13249:36: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+    NewHIV.RecordSample("NewHIV.txt");
+                                    ^
+Microsimulation.cpp:13250:44: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+    HIVprevCSW.RecordSample("HIVprevCSW.txt");
+                                            ^
+Microsimulation.cpp:13254:51: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   HSVprev15to49M.RecordSample("HSVprev15to49M.txt");
+                                                   ^
+Microsimulation.cpp:13255:51: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   HSVprev15to49F.RecordSample("HSVprev15to49F.txt");
+                                                   ^
+Microsimulation.cpp:13256:51: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   HSVprev15to49B.RecordSample("HSVprev15to49B.txt");
+                                                   ^
+Microsimulation.cpp:13257:51: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   HSVprev15to49C.RecordSample("HSVprev15to49C.txt");
+                                                   ^
+Microsimulation.cpp:13258:51: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   HSVprev15to49W.RecordSample("HSVprev15to49W.txt");
+                                                   ^
+Microsimulation.cpp:13261:50: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+    HSVparamsLogL.RecordSample("HSVparamsLogL.txt"); 
+                                                  ^
+Microsimulation.cpp:13262:36: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+    NewHSV.RecordSample("NewHSV.txt");
+                                    ^
+Microsimulation.cpp:13263:44: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+    HSVprevCSW.RecordSample("HSVprevCSW.txt");
+                                            ^
+Microsimulation.cpp:13264:44: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+    HSVprevANC.RecordSample("HSVprevANC.txt");
+                                            ^
+Microsimulation.cpp:13268:49: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   HDprev15to49M.RecordSample("HDprev15to49M.txt");
+                                                 ^
+Microsimulation.cpp:13269:49: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   HDprev15to49F.RecordSample("HDprev15to49F.txt");
+                                                 ^
+Microsimulation.cpp:13273:49: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   TPprev15to49M.RecordSample("TPprev15to49M.txt");
+                                                 ^
+Microsimulation.cpp:13274:49: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   TPprev15to49F.RecordSample("TPprev15to49F.txt");
+                                                 ^
+Microsimulation.cpp:13277:48: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+    TPparamsLogL.RecordSample("TPparamsLogL.txt"); 
+                                                ^
+Microsimulation.cpp:13278:34: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+    NewTP.RecordSample("NewTP.txt");
+                                  ^
+Microsimulation.cpp:13279:42: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+    TPprevCSW.RecordSample("TPprevCSW.txt");
+                                          ^
+Microsimulation.cpp:13280:42: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+    TPprevANC.RecordSample("TPprevANC.txt");
+                                          ^
+Microsimulation.cpp:13284:49: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   NGprev15to49M.RecordSample("NGprev15to49M.txt");
+                                                 ^
+Microsimulation.cpp:13285:49: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   NGprev15to49F.RecordSample("NGprev15to49F.txt");
+                                                 ^
+Microsimulation.cpp:13288:48: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+    NGparamsLogL.RecordSample("NGparamsLogL.txt"); 
+                                                ^
+Microsimulation.cpp:13289:34: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+    NewNG.RecordSample("NewNG.txt");
+                                  ^
+Microsimulation.cpp:13290:42: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+    NGprevCSW.RecordSample("NGprevCSW.txt");
+                                          ^
+Microsimulation.cpp:13294:49: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   CTprev15to49M.RecordSample("CTprev15to49M.txt");
+                                                 ^
+Microsimulation.cpp:13295:49: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   CTprev15to49F.RecordSample("CTprev15to49F.txt");
+                                                 ^
+Microsimulation.cpp:13298:48: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+    CTparamsLogL.RecordSample("CTparamsLogL.txt"); 
+                                                ^
+Microsimulation.cpp:13299:34: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+    NewCT.RecordSample("NewCT.txt");
+                                  ^
+Microsimulation.cpp:13300:42: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+    CTprevCSW.RecordSample("CTprevCSW.txt");
+                                          ^
+Microsimulation.cpp:13304:49: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   TVprev15to49M.RecordSample("TVprev15to49M.txt");
+                                                 ^
+Microsimulation.cpp:13305:49: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   TVprev15to49F.RecordSample("TVprev15to49F.txt");
+                                                 ^
+Microsimulation.cpp:13308:48: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+    TVparamsLogL.RecordSample("TVparamsLogL.txt"); 
+                                                ^
+Microsimulation.cpp:13309:34: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+    NewTV.RecordSample("NewTV.txt");
+                                  ^
+Microsimulation.cpp:13310:42: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+    TVprevCSW.RecordSample("TVprevCSW.txt");
+                                          ^
+Microsimulation.cpp:13314:49: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   BVprev15to49F.RecordSample("BVprev15to49F.txt");}
+                                                 ^
+Microsimulation.cpp:13316:49: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   VCprev15to49F.RecordSample("VCprev15to49F.txt");}
+                                                 ^
+Microsimulation.cpp:13318:69: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   if (MSMcalib == 1){ MSMparamsLogL.RecordSample("MSMparamsLogL.txt"); }
+                                                                     ^
+Microsimulation.cpp:13319:74: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   if (MSMcalibHIV == 1){ MSMTparamsLogL.RecordSample("MSMTparamsLogL.txt"); }
+                                                                          ^
+Microsimulation.cpp:13320:43: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   MSMmarried.RecordSample("MSMmarried.txt");
+                                           ^
+Microsimulation.cpp:13321:45: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   MSMrecentBi.RecordSample("MSMrecentBi.txt");
+                                             ^
+Microsimulation.cpp:13322:41: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   MSMeverBi.RecordSample("MSMeverBi.txt");
+                                         ^
+Microsimulation.cpp:13323:49: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   MSMaged25plus.RecordSample("MSMaged25plus.txt");
+                                                 ^
+Microsimulation.cpp:13324:45: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   MSMpositive.RecordSample("MSMpositive.txt");
+                                             ^
+Microsimulation.cpp:13325:49: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   MSMcurrentReg.RecordSample("MSMcurrentReg.txt");
+                                                 ^
+Microsimulation.cpp:13326:53: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   MSMmultPartners.RecordSample("MSMmultPartners.txt");
+                                                     ^
+Microsimulation.cpp:13327:47: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   EverMSMpropn.RecordSample("EverMSMpropn.txt");
+                                               ^
+Microsimulation.cpp:13328:57: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   EverMSMcurrentReg.RecordSample("EverMSMcurrentReg.txt");
+                                                         ^
+Microsimulation.cpp:13329:49: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   EverMSMeverBi.RecordSample("EverMSMeverBi.txt");
+                                                 ^
+Microsimulation.cpp:13330:53: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   EverMSMpositive.RecordSample("EverMSMpositive.txt");
+                                                     ^
+Microsimulation.cpp:13331:55: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   NeverMSMpositive.RecordSample("NeverMSMpositive.txt");
+                                                       ^
+Microsimulation.cpp:13332:55: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   HIVageProfileMSM.RecordSample("HIVageProfileMSM.txt");
+                                                       ^
+Microsimulation.cpp:13333:55: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   CasualAgeProfile.RecordSample("CasualAgeProfile.txt");
+                                                       ^
+Microsimulation.cpp:13334:47: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   BiAgeProfile.RecordSample("BiAgeProfile.txt");
+                                               ^
+Microsimulation.cpp:13335:45: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   HighRiskMSM.RecordSample("HighRiskMSM.txt");
+                                             ^
+Microsimulation.cpp:13336:43: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   NewHIV_MSM.RecordSample("NewHIV_MSM.txt");
+                                           ^
+Microsimulation.cpp:13337:35: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   NewHIV.RecordSample("NewHIV.txt");
+                                   ^
+Microsimulation.cpp:13338:49: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   MSMpositiveBi.RecordSample("MSMpositiveBi.txt");
+                                                 ^
+Microsimulation.cpp:13339:51: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   MSMpositiveGay.RecordSample("MSMpositiveGay.txt");
+                                                   ^
+Microsimulation.cpp:13340:53: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   MSMposInsertive.RecordSample("MSMposInsertive.txt");
+                                                     ^
+Microsimulation.cpp:13341:53: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   MSMposReceptive.RecordSample("MSMposReceptive.txt");
+                                                     ^
+Microsimulation.cpp:13342:53: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   MSMposVersatile.RecordSample("MSMposVersatile.txt");
+                                                     ^
+Microsimulation.cpp:13343:45: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   HomoPrefPos.RecordSample("HomoPrefPos.txt");
+                                             ^
+Microsimulation.cpp:13344:41: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   BiPrefPos.RecordSample("BiPrefPos.txt");
+                                         ^
+Microsimulation.cpp:13345:49: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   HeteroPrefPos.RecordSample("HeteroPrefPos.txt");
+                                                 ^
+Microsimulation.cpp:13363:60: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  DropoutDuePregnancy.RecordSample("DropoutDuePregnancy.txt");
+                                                            ^
+Microsimulation.cpp:13366:60: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  SexuallyExperienced.RecordSample("SexuallyExperienced.txt");
+                                                            ^
+Microsimulation.cpp:13367:50: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  EduConcordance.RecordSample("EduConcordance.txt");
+                                                  ^
+Microsimulation.cpp:13368:52: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  RaceConcordance.RecordSample("RaceConcordance.txt");
+                                                    ^
+Microsimulation.cpp:13369:52: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  ConcurrencyPrev.RecordSample("ConcurrencyPrev.txt");
+                                                    ^
+Microsimulation.cpp:13370:46: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  Married2001M.RecordSample("Married2001M.txt");
+                                              ^
+Microsimulation.cpp:13371:46: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  Married2001F.RecordSample("Married2001F.txt");
+                                              ^
+Microsimulation.cpp:13372:46: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  Married2011M.RecordSample("Married2011M.txt");
+                                              ^
+Microsimulation.cpp:13373:46: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  Married2011F.RecordSample("Married2011F.txt");
+                                              ^
+Microsimulation.cpp:13374:50: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  MarriedEdu2011.RecordSample("MarriedEdu2011.txt");
+                                                  ^
+Microsimulation.cpp:13375:50: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  CondomUseByEdu.RecordSample("CondomUseByEdu.txt");
+                                                  ^
+Microsimulation.cpp:13376:52: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  CondomUseByRace.RecordSample("CondomUseByRace.txt");
+                                                    ^
+Microsimulation.cpp:13377:52: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  CondomUse15to24.RecordSample("CondomUse15to24.txt");
+                                                    ^
+Microsimulation.cpp:13378:52: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  CondomUse25to49.RecordSample("CondomUse25to49.txt");
+                                                    ^
+Microsimulation.cpp:13379:40: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  SWsexActs.RecordSample("SWsexActs.txt");
+                                        ^
+Microsimulation.cpp:13380:48: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  SWsexActsProt.RecordSample("SWsexActsProt.txt");
+                                                ^
+Microsimulation.cpp:13381:44: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  CohabitTemp.RecordSample("CohabitTemp.txt");
+                                            ^
+Microsimulation.cpp:13382:54: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  CohabitTempTrend.RecordSample("CohabitTempTrend.txt");
+                                                      ^
+Microsimulation.cpp:13383:54: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  AgeDisparate2000.RecordSample("AgeDisparate2000.txt");
+                                                      ^
+Microsimulation.cpp:13384:50: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  PartnerAgeDifM.RecordSample("PartnerAgeDifM.txt");
+                                                  ^
+Microsimulation.cpp:13385:50: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  PartnerAgeDifF.RecordSample("PartnerAgeDifF.txt");
+                                                  ^
+Microsimulation.cpp:13388:42: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  TakingPrEP.RecordSample("TakingPrEP.txt");
+                                          ^
+Microsimulation.cpp:13389:46: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  VaccineDoses.RecordSample("VaccineDoses.txt");
+                                              ^
+Microsimulation.cpp:13392:40: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  TotBirths.RecordSample("TotBirths.txt");
+                                        ^
+Microsimulation.cpp:13393:34: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  TotPop.RecordSample("TotPop.txt");
+                                  ^
+Microsimulation.cpp:13394:40: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  ContrPrev.RecordSample("ContrPrev.txt");
+                                        ^
+Microsimulation.cpp:13395:50: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  EverUseContr98.RecordSample("EverUseContr98.txt");
+                                                  ^
+Microsimulation.cpp:13396:50: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  EverUseContr03.RecordSample("EverUseContr03.txt");
+                                                  ^
+Microsimulation.cpp:13397:50: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  CurrUseContr98.RecordSample("CurrUseContr98.txt");
+                                                  ^
+Microsimulation.cpp:13398:50: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  CurrUseContr03.RecordSample("CurrUseContr03.txt");
+                                                  ^
+Microsimulation.cpp:13399:50: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  CurrUseContr16.RecordSample("CurrUseContr16.txt");
+                                                  ^
+Microsimulation.cpp:13400:52: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  CurrContrRace98.RecordSample("CurrContrRace98.txt");
+                                                    ^
+Microsimulation.cpp:13401:52: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  CurrContrRace03.RecordSample("CurrContrRace03.txt");
+                                                    ^
+Microsimulation.cpp:13402:50: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  CurrContrEdu98.RecordSample("CurrContrEdu98.txt");
+                                                  ^
+Microsimulation.cpp:13403:50: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  CurrContrEdu03.RecordSample("CurrContrEdu03.txt");
+                                                  ^
+Microsimulation.cpp:13404:50: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  CurrInjectable.RecordSample("CurrInjectable.txt");
+                                                  ^
+Microsimulation.cpp:13405:38: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  CurrPill.RecordSample("CurrPill.txt");
+                                      ^
+Microsimulation.cpp:13406:50: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  BirthIntervals.RecordSample("BirthIntervals.txt");
+                                                  ^
+Microsimulation.cpp:13407:54: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  SexuallyExpFertB.RecordSample("SexuallyExpFertB.txt");
+                                                      ^
+Microsimulation.cpp:13408:54: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  SexuallyExpFertC.RecordSample("SexuallyExpFertC.txt");
+                                                      ^
+Microsimulation.cpp:13409:54: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  SexuallyExpFertW.RecordSample("SexuallyExpFertW.txt");
+                                                      ^
+Microsimulation.cpp:13410:50: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  FertByMarriage.RecordSample("FertByMarriage.txt");
+                                                  ^
+Microsimulation.cpp:13411:42: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  UrbanTrend.RecordSample("UrbanTrend.txt");
+                                          ^
+Microsimulation.cpp:13412:38: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  UrbanAge.RecordSample("UrbanAge.txt");
+                                      ^
+Microsimulation.cpp:13413:40: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  UrbanRace.RecordSample("UrbanRace.txt");
+                                        ^
+Microsimulation.cpp:13414:38: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  UrbanEdu.RecordSample("UrbanEdu.txt");
+                                      ^
+Microsimulation.cpp:13417:54: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  FractionInPrison.RecordSample("FractionInPrison.txt");
+                                                      ^
+Microsimulation.cpp:13418:44: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  PrisonYouth.RecordSample("PrisonYouth.txt");
+                                            ^
+Microsimulation.cpp:13419:64: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  PrisonCompletedSchool.RecordSample("PrisonCompletedSchool.txt");
+                                                                ^
+Microsimulation.cpp:13420:40: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  PrisonHIV.RecordSample("PrisonHIV.txt");
+                                        ^
+Microsimulation.cpp:13421:50: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  PrisonPrevious.RecordSample("PrisonPrevious.txt");
+                                                  ^
+Microsimulation.cpp:13422:52: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  PrisonSentenced.RecordSample("PrisonSentenced.txt");
+                                                    ^
+Microsimulation.cpp:13423:42: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  PrisonRace.RecordSample("PrisonRace.txt");
+                                          ^
+Microsimulation.cpp:13426:46: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  TotalTestsOI.RecordSample("TotalTestsOI.txt");
+                                              ^
+Microsimulation.cpp:13427:42: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  PosTestsOI.RecordSample("PosTestsOI.txt");
+                                          ^
+Microsimulation.cpp:13428:40: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  NewDiagOI.RecordSample("NewDiagOI.txt");
+                                        ^
+Microsimulation.cpp:13429:50: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  TotalTestsPrEP.RecordSample("TotalTestsPrEP.txt");
+                                                  ^
+Microsimulation.cpp:13430:46: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  PosTestsPrEP.RecordSample("PosTestsPrEP.txt");
+                                              ^
+Microsimulation.cpp:13431:48: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  TotalTestsANC.RecordSample("TotalTestsANC.txt");
+                                                ^
+Microsimulation.cpp:13432:44: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  PosTestsANC.RecordSample("PosTestsANC.txt");
+                                            ^
+Microsimulation.cpp:13433:42: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  NewDiagANC.RecordSample("NewDiagANC.txt");
+                                          ^
+Microsimulation.cpp:13434:48: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  TotalTestsGen.RecordSample("TotalTestsGen.txt");
+                                                ^
+Microsimulation.cpp:13435:44: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  PosTestsGen.RecordSample("PosTestsGen.txt");
+                                            ^
+Microsimulation.cpp:13436:42: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  NewDiagGen.RecordSample("NewDiagGen.txt");
+                                          ^
+Microsimulation.cpp:13437:48: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  TotalTestsMMC.RecordSample("TotalTestsMMC.txt");
+                                                ^
+Microsimulation.cpp:13438:44: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  PosTestsMMC.RecordSample("PosTestsMMC.txt");
+                                            ^
+Microsimulation.cpp:13439:56: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  TotalTestsPartner.RecordSample("TotalTestsPartner.txt");
+                                                        ^
+Microsimulation.cpp:13440:52: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  PosTestsPartner.RecordSample("PosTestsPartner.txt");
+                                                    ^
+Microsimulation.cpp:13441:50: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  NewDiagPartner.RecordSample("NewDiagPartner.txt");
+                                                  ^
+Microsimulation.cpp:13442:50: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  TotalTestsHH_U.RecordSample("TotalTestsHH_U.txt");
+                                                  ^
+Microsimulation.cpp:13443:46: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  PosTestsHH_U.RecordSample("PosTestsHH_U.txt");
+                                              ^
+Microsimulation.cpp:13444:44: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  NewDiagHH_U.RecordSample("NewDiagHH_U.txt");
+                                            ^
+Microsimulation.cpp:13445:50: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  TotalTestsHH_R.RecordSample("TotalTestsHH_R.txt");
+                                                  ^
+Microsimulation.cpp:13446:46: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  PosTestsHH_R.RecordSample("PosTestsHH_R.txt");
+                                              ^
+Microsimulation.cpp:13447:44: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  NewDiagHH_R.RecordSample("NewDiagHH_R.txt");
+                                            ^
+Microsimulation.cpp:13448:57: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  TotalTestsMobile_U.RecordSample("TotalTestsMobileU.txt");
+                                                         ^
+Microsimulation.cpp:13449:53: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  PosTestsMobile_U.RecordSample("PosTestsMobileU.txt");
+                                                     ^
+Microsimulation.cpp:13450:51: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  NewDiagMobile_U.RecordSample("NewDiagMobileU.txt");
+                                                   ^
+Microsimulation.cpp:13451:57: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  TotalTestsMobile_R.RecordSample("TotalTestsMobileR.txt");
+                                                         ^
+Microsimulation.cpp:13452:53: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  PosTestsMobile_R.RecordSample("PosTestsMobileR.txt");
+                                                     ^
+Microsimulation.cpp:13453:51: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  NewDiagMobile_R.RecordSample("NewDiagMobileR.txt");
+                                                   ^
+Microsimulation.cpp:13454:48: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  TotalTestsFSW.RecordSample("TotalTestsFSW.txt");
+                                                ^
+Microsimulation.cpp:13455:44: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  PosTestsFSW.RecordSample("PosTestsFSW.txt");
+                                            ^
+Microsimulation.cpp:13456:42: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  NewDiagFSW.RecordSample("NewDiagFSW.txt");
+                                          ^
+Microsimulation.cpp:13457:48: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  TotalTestsMSM.RecordSample("TotalTestsMSM.txt");
+                                                ^
+Microsimulation.cpp:13458:44: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  PosTestsMSM.RecordSample("PosTestsMSM.txt");
+                                            ^
+Microsimulation.cpp:13459:42: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  NewDiagMSM.RecordSample("NewDiagMSM.txt");
+                                          ^
+Microsimulation.cpp:13460:54: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  TotalTestsSchool.RecordSample("TotalTestsSchool.txt");
+                                                      ^
+Microsimulation.cpp:13461:50: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  PosTestsSchool.RecordSample("PosTestsSchool.txt");
+                                                  ^
+Microsimulation.cpp:13462:48: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  NewDiagSchool.RecordSample("NewDiagSchool.txt");
+                                                ^
+Microsimulation.cpp:13463:64: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  TotalTestsANCpartner0.RecordSample("TotalTestsANCpartner0.txt");
+                                                                ^
+Microsimulation.cpp:13464:60: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  PosTestsANCpartner0.RecordSample("PosTestsANCpartner0.txt");
+                                                            ^
+Microsimulation.cpp:13465:58: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  NewDiagANCpartner0.RecordSample("NewDiagANCpartner0.txt");
+                                                          ^
+Microsimulation.cpp:13466:64: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  TotalTestsANCpartner1.RecordSample("TotalTestsANCpartner1.txt");
+                                                                ^
+Microsimulation.cpp:13467:60: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  PosTestsANCpartner1.RecordSample("PosTestsANCpartner1.txt");
+                                                            ^
+Microsimulation.cpp:13468:58: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  NewDiagANCpartner1.RecordSample("NewDiagANCpartner1.txt");
+                                                          ^
+Microsimulation.cpp:13469:54: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  TotalTestsPrison.RecordSample("TotalTestsPrison.txt");
+                                                      ^
+Microsimulation.cpp:13470:50: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  PosTestsPrison.RecordSample("PosTestsPrison.txt");
+                                                  ^
+Microsimulation.cpp:13471:48: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  NewDiagPrison.RecordSample("NewDiagPrison.txt");
+                                                ^
+Microsimulation.cpp:13472:48: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  TotalTestsSTI.RecordSample("TotalTestsSTI.txt");
+                                                ^
+Microsimulation.cpp:13473:44: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  PosTestsSTI.RecordSample("PosTestsSTI.txt");
+                                            ^
+Microsimulation.cpp:13474:42: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  NewDiagSTI.RecordSample("NewDiagSTI.txt");
+                                          ^
+Microsimulation.cpp:13475:50: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  TotalTestsWork.RecordSample("TotalTestsWork.txt");
+                                                  ^
+Microsimulation.cpp:13476:46: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  PosTestsWork.RecordSample("PosTestsWork.txt");
+                                              ^
+Microsimulation.cpp:13477:44: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  NewDiagWork.RecordSample("NewDiagWork.txt");
+                                            ^
+Microsimulation.cpp:13478:48: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  TotalTestsFPC.RecordSample("TotalTestsFPC.txt");
+                                                ^
+Microsimulation.cpp:13479:44: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  PosTestsFPC.RecordSample("PosTestsFPC.txt");
+                                            ^
+Microsimulation.cpp:13480:42: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  NewDiagFPC.RecordSample("NewDiagFPC.txt");
+                                          ^
+Microsimulation.cpp:13481:48: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  MaleDiagnosed.RecordSample("MaleDiagnosed.txt");
+                                                ^
+Microsimulation.cpp:13482:46: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  FemDiagnosed.RecordSample("FemDiagnosed.txt");
+                                              ^
+Microsimulation.cpp:13483:52: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  Diagnosed15to24.RecordSample("Diagnosed15to24.txt");
+                                                    ^
+Microsimulation.cpp:13484:52: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  Diagnosed25to49.RecordSample("Diagnosed25to49.txt");
+                                                    ^
+Microsimulation.cpp:13485:52: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  Diagnosed50plus.RecordSample("Diagnosed50plus.txt");
+                                                    ^
+Microsimulation.cpp:13486:46: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  FSWdiagnosed.RecordSample("FSWdiagnosed.txt");
+                                              ^
+Microsimulation.cpp:13487:46: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  MSMdiagnosed.RecordSample("MSMdiagnosed.txt");
+                                              ^
+Microsimulation.cpp:13488:36: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  LYsLost.RecordSample("LYsLost.txt");
+                                    ^
+Microsimulation.cpp:13489:40: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  NewART200.RecordSample("NewART200.txt");
+                                        ^
+Microsimulation.cpp:13490:40: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  NewART350.RecordSample("NewART350.txt");
+                                        ^
+Microsimulation.cpp:13491:40: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  NewART500.RecordSample("NewART500.txt");
+                                        ^
+Microsimulation.cpp:13492:48: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  NewART500plus.RecordSample("NewART500plus.txt");
+                                                ^
+Microsimulation.cpp:13493:48: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  MMCoperations.RecordSample("MMCoperations.txt");
+                                                ^
+Microsimulation.cpp:13494:46: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  DiagNoART200.RecordSample("DiagNoART200.txt");
+                                              ^
+Microsimulation.cpp:13495:46: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  DiagNoART350.RecordSample("DiagNoART350.txt");
+                                              ^
+Microsimulation.cpp:13496:46: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  DiagNoART500.RecordSample("DiagNoART500.txt");
+                                              ^
+Microsimulation.cpp:13497:54: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  DiagNoART500plus.RecordSample("DiagNoART500plus.txt");
+                                                      ^
+Microsimulation.cpp:13498:44: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  ProtSexActs.RecordSample("ProtSexActs.txt");
+                                            ^
+Microsimulation.cpp:13499:54: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  TreatedAdults200.RecordSample("TreatedAdults200.txt");
+                                                      ^
+Microsimulation.cpp:13500:54: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  TreatedAdults350.RecordSample("TreatedAdults350.txt");
+                                                      ^
+Microsimulation.cpp:13501:54: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  TreatedAdults500.RecordSample("TreatedAdults500.txt");
+                                                      ^
+Microsimulation.cpp:13502:62: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  TreatedAdults500plus.RecordSample("TreatedAdults500plus.txt");
+                                                              ^
+Microsimulation.cpp:13503:46: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  TotBirthsHIV.RecordSample("TotBirthsHIV.txt");
+                                              ^
+Microsimulation.cpp:13504:46: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  TotBirthsART.RecordSample("TotBirthsART.txt");
+                                              ^
+Microsimulation.cpp:13505:42: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  AIDSdeaths.RecordSample("AIDSdeaths.txt");
+                                          ^
+Microsimulation.cpp:13506:48: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  NonAIDSdeaths.RecordSample("NonAIDSdeaths.txt");
+                                                ^
+Microsimulation.cpp:13507:42: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  TotalCosts.RecordSample("TotalCosts.txt");
+                                          ^
+Microsimulation.cpp:13508:34: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  StoreHCToutputs("HCToutputs.txt");
+                                  ^
+Microsimulation.cpp: In function ‘void StoreHCToutputs(char*)’:
+Microsimulation.cpp:13666:38: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  NewHIV_B.ReadBaseline("NewHIV_B.txt");
+                                      ^
+Microsimulation.cpp:13667:38: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  LYsLostB.ReadBaseline("LYsLostB.txt");
+                                      ^
+Microsimulation.cpp:13668:48: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  NewDiagnosesB.ReadBaseline("NewDiagnosesB.txt");
+                                                ^
+Microsimulation.cpp:13669:44: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  TotalTestsB.ReadBaseline("TotalTestsB.txt");
+                                            ^
+Microsimulation.cpp:13670:44: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  TotalCostsB.ReadBaseline("TotalCostsB.txt");
+                                            ^
+StatFunctions.cpp: In function ‘double dlanor(double*)’:
+StatFunctions.cpp:6311:60: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   if ( xx < 5.0e0 ) ftnstop(" Argument too small in DLANOR");
+                                                            ^
+StatFunctions.cpp: In function ‘double dstrem(double*)’:
+StatFunctions.cpp:6527:66: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+     if(*z <= 0.0e0) ftnstop("Zero or negative argument in DSTREM");
+                                                                  ^
+StatFunctions.cpp: In function ‘void E0000(int, int*, double*, double*, long unsigned int*, long unsigned int*, double*, double*, double*, double*, double*, double*, double*)’:
+StatFunctions.cpp:6743:60: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+     if(qcond) ftnstop(" SMALL, X, BIG not monotone in INVR");
+                                                            ^
+ModuleCmd_Load.c(208):ERROR:105: Unable to locate a modulefile for '/apps/compilers/gcc'
+=>> PBS: job killed: walltime 3623 exceeded limit 3600

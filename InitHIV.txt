@@ -1,0 +1,8 @@
+Ratio of age- and sex-specific prevalence to average for females aged 15-49
+0.04	1.11
+0.44	1.24
+1.00	1.24
+0.69	0.95
+0.58	0.68
+0.48	0.54
+0.29	0.38

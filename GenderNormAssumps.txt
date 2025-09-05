@@ -1,0 +1,22 @@
+AgeEffectIneqGender
+0.9690
+EduEffectIneqGender
+1.00	0.90	0.51
+RuralEffectIneqGender
+1.68
+RaceEffectIneqGender
+1.00	0.77	0.29
+HighRiskEffectIneqGender 3.00
+2.00
+EffectIneqGenderConcurrency
+3.18
+EffectIneqGenderCasual
+0.81
+ORcondomGenderIneq
+0.56
+RRgenderIneqIndiv
+0.50
+RRgenderIneqComm
+0.50
+ProbGenderIneqReversion
+0.50

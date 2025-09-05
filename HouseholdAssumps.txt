@@ -1,0 +1,157 @@
+BaseOddsHead
+1.34	0.73
+MarriedEffectHead
+17.86	0.10
+AgeEffectHead
+0.01	0.02
+0.04	0.05
+0.08	0.11
+0.14	0.23
+0.23	0.39
+0.35	0.57
+0.55	0.75
+0.60	0.79
+0.76	0.87
+0.94	1.00
+1.00	1.00
+RaceEffectHead
+1.00	1.00
+0.80	0.74
+1.20	0.54
+EmployedEffectHead
+3.35	1.33
+InSchoolEffectHead
+0.49	0.48
+EduEffectHead
+1.00	1.00
+0.74	1.02
+0.63	0.84
+0.73	0.96
+1.05	1.65
+BirthEffectHead
+3.12
+BaseOddsALWP
+0.087	0.051
+MarriedEffectALWP
+0.45	0.03
+AgeEffectALWP
+28.64	44.36
+26.86	39.99
+26.16	36.35
+22.71	26.90
+17.02	16.84
+11.28	10.41
+6.06	7.67
+1.00	1.00
+RaceEffectALWP
+1.00	1.00
+0.96	1.19
+1.55	1.06
+EmployedEffectALWP
+0.87	0.80
+InSchoolEffectALWP
+1.14	1.38
+EduEffectALWP
+1.00	1.00
+1.34	1.29
+1.60	1.76
+1.91	2.05
+1.81	1.48
+BaseOddsCLWP
+1.38
+AgeEffectCLWP
+1.00	1.32	1.72
+RaceEffectCLWP
+1.00	1.02	4.66
+InSchoolEffectCLWP
+1.38
+BaseOddsCLSP
+7.88	0.16
+AgeEffectCLSP
+0.77	0.95
+Age2EffectCLSP
+1.013	1.005
+RaceEffectCLSP
+1.00	1.00
+2.18	1.84
+6.63	5.85
+SchoolingEffectCLSP
+1.13	0.90
+BaseOddsNewHH
+0.22	0.22
+MarriedEffectNewHH
+2.45	0.17
+AgeEffectNewHH
+1.00	1.00
+2.66	2.51
+4.33	3.82
+5.73	5.31
+6.50	6.94
+6.62	8.25
+7.33	7.50
+RaceEffectNewHH
+1.00	1.00
+0.47	0.52
+0.63	0.51
+EmployedEffectNewHH
+2.17	2.04
+InSchoolEffectNewHH
+1.32	1.50
+EduEffectNewHH
+1.00	1.00
+0.87	0.97
+0.91	0.95
+1.10	1.10
+1.61	1.39
+UrbanEffectNewHH
+0.83	0.93
+BasedOddsNHADS
+0.00764
+AgeEffectNHADS
+1.247
+Age2EffectNHADS
+0.9983
+RaceEffectNHADS
+1.00	0.69	0.45
+EmployedEffectNHADS
+2.37
+ParentAliveNHADS
+0.34
+BaseOddsLeaveNest
+0.0050
+ORleaveNestAge
+1.153
+ORleaveNestAge2
+0.9986
+RRleaveNestFemale
+0.855
+RRleaveNestRace
+1.00	0.38	0.48
+RRleaveNestEmployed
+2.89
+RRleaveNestInSchool
+1.33
+RRleaveNestHH10plus
+2.00
+BaseOddsHHALN
+0.00161
+OR_HHALNfemale
+1.188
+OR_HHALNage
+1.374
+OR_HHALNage2
+0.9965
+OR_HHALNrace
+1.00	0.35	0.63
+OR_HHALNemployed
+3.03
+OR_HHALNinSchool
+1.71
+ProbHomeless
+0.10
+BaseOddsNotHomeless
+0.15
+ORnotHomelessFem
+2.00
+ORnotHomelessEmployed
+1.60

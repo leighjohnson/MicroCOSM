@@ -1,0 +1,2 @@
+     0		  0.088482	         0	   -1.#IND	   -1.#IND	   -1.#IND	   -1.#IND	   -1.#IND	   -1.#IND	   -1.#IND	   -1.#IND	   -1.#IND	   -1.#IND	   -1.#IND	   -1.#IND	   -1.#IND	   -1.#IND	   -1.#IND	   -1.#IND	   -1.#IND	   -1.#IND	   -1.#IND
+     1		0.00240088	   -1.#IND	   -1.#IND	   -1.#IND	   -1.#IND	   -1.#IND	   -1.#IND	   -1.#IND	   -1.#IND	   -1.#IND	   -1.#IND	   -1.#IND	   -1.#IND	   -1.#IND	   -1.#IND	   -1.#IND	   -1.#IND	   -1.#IND	   -1.#IND	   -1.#IND	   -1.#IND

@@ -1,0 +1,295 @@
+AveDuration by stage for HSV-2 (M then F)
+2.6		523.5	1.1	
+2.6		523.5	1.1
+AveDuration by stage for syphilis (M then F)
+4.4		6.88	15.2	603.0	23.3	54.3
+4.4		6.88	15.2	603.0	23.3	54.3
+AveDuration by stage for chancroid (M then F)
+8.7		8.7		52.0
+8.7		8.7		52.0
+AveDuration by stage for gonorrhoea (M then F)
+33.4	33.4	52.9
+35.0	35.0	52.9
+AveDuration by stage for chlamydia (M then F)
+15.9	107.6	303.5
+15.9	107.6	303.5
+AveDuration by stage for trichomoniasis (M then F)
+2.05	21.2	33.2
+15.2	248.1	33.2
+AveDuration by stage for HIV (M then F)
+13.0	268.0	215.0	102.0	1560.0
+13.0	268.0	215.0	102.0	1560.0
+AveDuration by stage for VC
+28.9	12.0
+CtsTransition into BV state 1 (from states 2, 3 & 4)
+0.0644	0.0075	0.0075
+CtsTransition into BV state 2 (from states 1, 3 & 4)
+0.0349	0.0442	0.0442
+Annualized RecurrenceRate (HSV-2 M & F, VC) [default value for VC is 0.53]
+6.06	2.93	0.448
+PropnImmuneAfterRx (HD, NG, CT, TV; M then F)
+0.0		0.400	0.718	0.695
+0.0		0.400	0.718	0.695
+PropnImmuneAfterSR (HD, NG, CT, TV; M then F)
+1.0		1.0		1.0		1.0
+1.0		1.0		1.0		1.0
+SymptomaticPropn (HSV-2, HD, NG, CT, TV, BV; M then F)
+0.148	0.90	0.860	0.356	0.388
+0.148	0.70	0.306	0.121	0.284	0.221
+TransmProb (HSV-2, TP, HD, NG, CT, TV; M then F then client-to-sex worker)
+0.0168	0.236	0.20	0.463	0.170	0.204
+0.0036	0.163	0.20	0.237	0.125	0.041
+0.0017	0.236	0.20	0.463	0.170	0.204
+RelTransmLT (HSV-2, TP, HD, NG, CT, TV, HIV; M then F)
+0.055	1.00	1.00	1.00	1.00	1.00	1.00
+0.043	1.00	1.00	1.00	1.00	1.00	1.00
+TransmProb[] for HIV (CSW-client, ST rel, LT rel high, LT rel low; M then F)
+0.000612	0.001541	0.001128
+0.000589	0.000589	0.000410
+CondomEff (HSV-2, TP, HD, NG, CT, TV, HIV; F then M)
+0.75	0.9		0.9		0.9		0.9		0.9		0.9
+0.75	0.9		0.9		0.9		0.9		0.9		0.9
+CircEff (HSV-2, TP, HD, NG, CT, TV, HIV; F then M)
+0.00	0.0		0.0		0.0		0.0		0.0		0.6
+0.00	0.0		0.0		0.0		0.0		0.0		0.0
+HIVinfecIncrease for HSV-2 (M then F)
+1.4		0.1		1.4		0.1
+1.4		0.1		1.4		0.1
+HIVinfecIncrease for TP (M then F)
+0.3		1.4		0.3		0.0		0.0		0.0
+0.3		1.4		0.3		0.0		0.0		0.0
+HIVinfecIncrease for HD (M then F)
+1.4		0.0
+1.4		0.0
+HIVinfecIncrease for NG (M then F)
+2.1		2.1
+0.8		0.8
+HIVinfecIncrease for CT (M then F)
+0.8		0.8
+0.8		0.0
+HIVinfecIncrease for TV (M then F)
+0.0		0.0
+0.0		0.0
+HIVinfecIncrease for HIV (M then F)
+15.0	0.0		0.0		1.80	-0.92	0.0
+15.0	0.0		0.0		1.80	-0.92	0.0
+HIVinfecIncrease for VC
+0.8		0.8
+HIVinfecIncrease for BV
+0.0		0.0		0.0
+HIVsuscepIncrease for HSV-2 (M then F)
+2.8		1.3		2.8		1.3
+2.8		1.3		2.8		1.3
+HIVsuscepIncrease for TP (M then F)
+1.4		2.8		1.4		0.0		0.0		0.0
+1.4		2.8		1.4		0.0		0.0		0.0
+HIVsuscepIncrease for HD (M then F)
+2.8		1.4
+2.8		1.4
+HIVsuscepIncrease for NG (M then F)
+2.4		2.4
+2.4		2.4
+HIVsuscepIncrease for CT (M then F)
+1.9		1.9
+1.9		1.9
+HIVsuscepIncrease for TV (M then F)
+1.0		1.0
+1.0		1.0
+HIVsuscepIncrease for VC
+1.7		1.7
+HIVsuscepIncrease for BV
+0.0		0.4		0.4
+SuscepIncrease in males (HSV-2, TP, HD, NG, CT, TV, HIV)
+1.0		1.0		1.0		1.0		1.0		1.0		1.0
+1.0		1.0		1.0		1.0		1.0		1.0		1.0
+1.0		1.0		1.0		1.0		1.0		1.0		1.0
+1.0		1.0		1.0		1.0		1.0		1.0		1.0
+1.0		1.0		1.0		1.0		1.0		1.0		1.0
+1.0		1.0		1.0		1.0		1.0		1.0		1.0
+1.0		1.0		1.0		1.0		1.0		1.0		1.0
+1.0		1.0		1.0		1.0		1.0		1.0		1.0
+1.0		1.0		1.0		1.0		1.0		1.0		1.0
+1.0		1.0		1.0		1.0		1.0		1.0		1.0
+1.0		1.0		1.0		1.0		1.0		1.0		1.0
+1.0		1.0		1.0		1.0		1.0		1.0		1.0
+1.0		1.0		1.0		1.0		1.0		1.0		1.0
+1.0		1.0		1.0		1.0		1.0		1.0		1.0
+1.0		1.0		1.0		1.0		1.0		1.0		1.0
+1.0		1.0		1.0		1.0		1.0		1.0		1.0
+SuscepIncrease in females (HSV-2, TP, HD, NG, CT, TV, HIV)
+1.0		1.0		1.0		1.0		2.5		1.0		2.5
+1.0		1.0		1.0		1.0		2.5		1.0		2.5
+1.0		1.0		1.0		1.0		1.5		1.0		1.5
+1.0		1.0		1.0		1.0		1.0		1.0		1.0
+1.0		1.0		1.0		1.0		1.0		1.0		1.0
+1.0		1.0		1.0		1.0		1.0		1.0		1.0
+1.0		1.0		1.0		1.0		1.0		1.0		1.0
+1.0		1.0		1.0		1.0		1.0		1.0		1.0
+1.0		1.0		1.0		1.0		1.0		1.0		1.0
+1.0		1.0		1.0		1.0		1.0		1.0		1.0
+1.0		1.0		1.0		1.0		1.0		1.0		1.0
+1.0		1.0		1.0		1.0		1.0		1.0		1.0
+1.0		1.0		1.0		1.0		1.0		1.0		1.0
+1.0		1.0		1.0		1.0		1.0		1.0		1.0
+1.0		1.0		1.0		1.0		1.0		1.0		1.0
+1.0		1.0		1.0		1.0		1.0		1.0		1.0
+OIincidence[5]
+0.019	0.05	0.08	0.27	0.90	0.10	0.10
+Herpes SheddingIncrease[5]
+1.0		1.0		1.0		1.0		1.00	1.0
+Herpes RecurrenceIncrease[5]
+1.0		1.0		2.0		3.0		1.00	2.0
+VC IncidenceIncrease[5]
+0.0		0.0		0.5		1.0		0.00	0.5
+Annual incidence of VC (15-19) and weekly incidence of BV (1 partner)
+0.942	0.117
+BV IncidenceMultTwoPartners, IncidenceMultNoPartners
+1.0		0.5
+Herpes SymptomInfecIncrease
+14.2
+InfecIncreaseSyndrome[][] (GUD, discharge, asymp STD; M then F)
+2.5		2.1		0.2
+2.5		0.7		0.2
+SuscepIncreaseSyndrome[][] (GUD, discharge, asymp STD; M then F)
+3.4		1.6		1.0
+1.8		0.6		0.5
+RelHIVfertility, by HIV stage
+1.00	0.92	0.80	0.73	1.20	0.80
+PropnInfectedAtBirth, PropnInfectedAfterBirth
+0.20	0.16
+Median time to AIDS in kids infected at birth (M, F) and after birth (M, F)
+0.50	0.50	7.80	7.80
+Weibull shape for time to AIDS in kids infected at birth (M, F) and after birth (M, F)
+0.70	0.70	5.50	5.50
+Mean survival after AIDS, in kids infected at birth (M, F) and after birth (M, F)
+0.43	0.43	1.34	1.34
+MaleTeenRxRate, MaleRxRate, FemTeenRxRate, FemRxRate, FSWRxRate 
+0.23	0.57	0.12	0.23	0.90
+PropnTreatedPublicM, PropnTreatedPublicF, PropnTreatedPrivateM, PropnTreatedPrivateF
+0.45	0.60	0.40	0.30
+ProbOIprecedesAIDSmort
+0.75
+ARTinterruption, ARTresumption
+0.132	0.90
+RRinterruptionM, ARTinterruption20mult
+1.20	2.00
+CorrectRxPreSM (HSV-2, TP, HD, NG, CT, TV, BV, VC)
+0.0		0.703	0.50	0.701	0.707	0.431	0.400	0.479
+CorrectRxWithSM (HSV-2, TP, HD, NG, CT, TV, BV; M then F)
+0.00	1.00	1.00	1.00	1.00	0.50
+0.00	1.00	1.00	1.00	1.00	1.00	1.00
+DrugEff (HSV-2, TP, HD, NG, CT, TV, BV, VC)
+0.90	0.90	0.90	0.90	0.90	0.90	0.60	0.55
+DrugPartialEff (BV, VC)
+0.20	0.30
+TradnalEff (HSV-2, TP, HD, NG, CT, TV, BV, VC)
+0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+Syphilis: ANCpropnScreened, ANCpropnTreated
+0.75	0.80
+HIV testing: VCTageMean[2], VCTageSD[2], RetestAdj, VCTadjEdu
+37.2	22.3	28.0	19.4	1.97	1.12
+RR of ART initiation per 100 increase in CD4
+0.80
+HIV PMTCT: AcceptScreening, AcceptNVP, RednNVP, RednFF
+1.00	1.00	0.47	0.50
+Syphilis: SecondaryRxMult, SecondaryCureMult, PropnSuscepAfterRx (M then F)
+0.633	0.30	0.397	0.397
+FSWasympRxRate, FSWasympCure
+0.08	0.5
+InitHIVprevFSW (previously 0.0233) 
+0.02
+InitHIVprevRace 
+1.00	0.18	0.07
+RatioUltToInitHIVtransm
+1.00
+SDsuscepHIVadj
+0.5
+MeanInitCD4
+6.44	6.54
+SDinitCD4
+0.219	0.224
+MeanInitVL
+4.36	4.17
+SDinitVL
+0.90	0.90
+AgeEffectInitVL
+0.007	0.007
+ChangeCD4
+0.139	0.139
+VLeffectCD4
+0.078	0.078
+AgeEffectCD4
+0.0013	0.0013
+ChangeVL
+0.061	0.122
+VLeffectVL
+-0.026	-0.026
+CD4effectVL
+-0.004	-0.004
+AgeEffectVL
+0.0022	0.0022
+MortZeroCD4
+0.645	0.710
+RednMortCD4
+0.9886	0.9886
+ARTmortRedn 0.117, 0.049
+0.059	0.025
+ARTmortConstant 0.0105, 0.0079
+0.0052	0.0040
+VLeffectTransm
+0.432	1.500
+HIVsusceptInjectable 
+1.28
+HIVinfectHormonal
+1.00
+PregEffectHIVtransm 1.75 2.5
+1.75	2.50
+HSVprevRace
+1.00	0.52	0.26
+PrEPefficacy
+0.65
+PrEPefficacyMSM
+0.85
+PrEPdiscontinue
+0.33
+VaccineWane
+0.03
+HIVvaccProt
+0.30	0.60
+VaccAdherence
+0.775
+MMCuptake
+1.00	0.60	0.35	0.27	0.21	0.16	0.12	0.08	0.05	0.03	0.02	0.01	0.00	0.00	0.00	0.00
+RR_VMMClogIncome
+1.20
+PublicANCuse
+0.862	0.771	0.110
+StillbirthRate
+0.014	0.056
+HBCTuptake
+0.56	0.84
+OR_STuptake
+8.17
+MobileTestUptake
+0.055	0.11
+SchoolTestUptake
+0.67	0.76	0.33
+ANCpartnerTested 
+0.11	0.11	0.33	0.33
+WorkTestUptake
+0.22	0.28
+EmployedReachable
+0.30
+FPCtestUptake
+0.28
+RetestAdjDiagnosed
+0.50	0.50	0.50	0.50	0.50	0.50	0.50	0.50	0.50	0.50	0.50	0.50	0.50	0.50	0.50
+RetestAdjART
+0.15	0.15	0.15	0.15	0.15	0.15	0.15	0.15	0.15	0.15	0.15	0.15	0.15	0.15	0.15
+RR_ARTstartcommunity
+0.68
+RR_ARTstartST
+0.68
+
+Parameters in this model are the posterior MEANS for the STI parameters and the
+averages of the 100 HIV parameter combinations providing best fit to the HIV data.

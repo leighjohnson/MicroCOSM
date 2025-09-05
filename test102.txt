@@ -1,0 +1,27 @@
+#!/bin/bash 
+#PBS -N Microsimulation1
+#PBS -P HEAL1049
+#PBS -q normal
+#PBS -l select=2:ncpus=24:mpiprocs=24
+#PBS -l walltime=1:00:00
+#PBS -m be
+#PBS -M leigh.johnson@uct.ac.za
+#PBS -o /mnt/lustre/users/ljohnson/code/Microsimulation9c/stdout.txt
+#PBS -e /mnt/lustre/users/ljohnson/code/Microsimulation9c/stderr.txt
+
+ulimit -s unlimited
+
+module add gcc/5.1.0
+module add chpc/gnu/parallel-20160422
+
+NP=`cat ${PBS_NODEFILE} | wc -l`
+START=1
+((END=48))
+
+echo "Starting job..."
+echo "Starting job..." 1>&2
+
+seq ${START} ${END} | parallel --jobs 25 --sshdelay 0.2 --sshloginfile ${PBS_NODEFILE} "echo \"\$( date ): running on \${HOSTNAME}\"; cd /mnt/lustre/users/ljohnson/code/Microsimulation9c/; ./Microsimulation {}"
+
+echo "Ending job..."
+echo "Ending job..." 1>&2

@@ -1,0 +1,6 @@
+EverFeed
+0.867	
+MedianFeed[2]
+18.0	7.0
+ShapeFeed[2]
+2.0	1.0

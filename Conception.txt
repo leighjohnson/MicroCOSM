@@ -1,0 +1,75 @@
+MeanGestation
+0.75
+SDgestation
+0.04
+SDfecundability
+0.43
+RateFecund
+0.1335	0.1542	0.1823	0.2231	0.2877	0.4055	0.6931	1.1931
+RateInfecund
+0.0690	0.0741	0.0800	0.0870	0.0953	0.1054	0.1178	0.1335	0.1542	0.1823	0.2231	0.2877	0.4055	0.6931	1.1931
+InitContr
+0.58	0.57	0.65
+0.48	0.55	0.69
+0.26	0.50	0.67
+InitInjectable
+0.65	0.74	0.04
+0.61	0.50	0.04
+0.50	0.26	0.03
+ORcontrUnmarriedNeverPreg (row for each race)
+1.00	1.70	0.30	0.30
+1.00	0.85	0.30	0.30
+1.00	0.50	0.60	0.60
+ORcontrEdu
+1.10
+ORcontrAbstinent
+0.67
+ContrVirgin
+0.03
+ORinjectableEdu
+0.95
+ORinjectableNeverPreg
+0.55
+SterilizationNotPill
+0.00	0.04	0.165	0.365	0.612	0.764	0.861
+SterilizationRates
+0.0011	0.0026	0.0147	0.0210	0.0331	0.0309	0.0262
+RaceEffectSteril
+0.60	2.80	2.80
+StartContrNewRel
+0.40	0.65	0.65
+StartContrPostnatal
+0.40	0.40	0.40
+StartContrOther
+0.01
+PrevBirthEffectContr
+2.50	2.50	1.50
+AgeEffectContr
+1.00	0.80	1.00	1.30	1.50	1.15	0.45
+1.00	0.85	0.70	0.60	0.50	0.40	0.30
+EduEffectContr
+1.15
+HIVeffectContr
+1.00
+CondomEffectContr
+0.35
+NoPrevUseContr1
+1.00
+NoPrevUseContr2
+1.00
+InjectablePref
+0.65	0.60	0.12
+ORinjectableAge
+0.60
+ORinjectableInit
+0.40
+NewContrMethodWeight
+0.30
+StopContr
+0.20	0.015
+StopContrAbsentPartner
+0.02
+CondomEffPreg 
+0.78
+ContrEffPreg
+0.90	0.78	0.995

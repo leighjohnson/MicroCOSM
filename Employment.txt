@@ -1,0 +1,32 @@
+BaseEmployed
+0.106
+EduEffectEmployed
+1.00	1.00	1.00	1.00	1.00	1.00	1.00	1.00	1.00	1.00	1.00	1.00	2.00	3.50
+RaceEffectEmployed
+1.00	1.30	1.30
+UrbanEffectEmployed
+1.00	1.50
+SexEffectEmployed
+1.00	0.60
+AgeEffectEmployed
+1.00	2.50	4.60	6.00	6.60	7.10	7.00	5.80	4.20	1.50	0.00
+EduEffectEmployed2
+1.00	1.04	1.19	1.51	3.21
+RaceEffectEmployed2
+1.00	1.32	1.75
+RaceEffectEmployed3
+1.00	1.12	1.49
+UrbanEffectEmployed2
+1.00	1.33
+SexEffectEmployed2
+0.72	0.72	0.46
+AgeEffectEmployed2
+1.00	1.90	2.89	3.85	4.34	4.58	4.26	3.70	2.77	1.20
+HIVeffectEmployed
+1.00	1.00	0.90	0.60	1.00	1.00
+ChildEffectEmployed
+0.81
+PrevEmployedEffect
+20.3
+ORunemployedTraining
+0.50

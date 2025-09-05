@@ -1,0 +1,18 @@
+DiscloseProb
+0.50
+DiscloseRate
+0.06
+DiscloseMale
+1.25
+DiscloseART
+3.00
+DiscloseMarried
+2.50
+DiscloseEffectRelDur 0.40
+0.40
+DiscloseEffectCondom 
+3.00
+ARTdiscordance 
+0.50
+ProbReferral
+0.42	0.78

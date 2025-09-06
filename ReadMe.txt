@@ -106,7 +106,7 @@ The default code that we have shared is the code used to run the model up to 202
 
 Note that we go through similar steps for the <ins>school support</ins> and <ins>vocational training</ins> scenarios (as inputs, copy and paste the contents of the ‘RandomUniform XX’ sheet in **Posteriors.xlsx**).
 
-## To calculate the effect of a cash transfer intervention, starting in 2025 (note that these are essentially the same steps as when running the baseline scenario for cash transfers, except where shown in red):
+## To calculate the effect of a cash transfer intervention, starting in 2025 (note that these are essentially the same steps as when running the baseline scenario for cash transfers, except where highlighted):
 
 - Keep `FixedUncertainty = 1`.
 
@@ -253,3 +253,4 @@ In general, if you’re unsure about what a variable does, you should keep it at
 ## General format of the output files
 
 In almost all output files, the number of rows corresponds to the specified samplesize variable (i.e. each row corresponds to a different parameter combination). In most output files, the first two columns are parameter combination IDs (or blanks) and the subsequent columns store the results for each year (for 1985, 1986, etc).
+
